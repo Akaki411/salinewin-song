@@ -1,5 +1,5 @@
 # salinewin-song
-Implementation of the virus track salinewin.exe written in C
+Implementation of a procedurally generated song from salinewin.exe
 
 Written for Windows and MinGW, for compilation:
 1. Clone the repository
