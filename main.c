@@ -3,7 +3,7 @@
 #include "generator.h"
 
 #define SAMPLE_RATE 96000
-#define DURATION 60
+#define DURATION 160
 
 int main() 
 {
@@ -16,7 +16,7 @@ int main()
         return 1;
     }
     
-    generate_bytebeat(buffer, numSamples, SAMPLE_RATE, DURATION);
+    generate_bytebeat(buffer, SAMPLE_RATE, DURATION);
     
     short *buffer16 = (short*)malloc(numSamples * sizeof(short));
     if (!buffer16) 

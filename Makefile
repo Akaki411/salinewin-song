@@ -1,6 +1,6 @@
 all: sound.exe
 
-sound.exe: main.c
+sound.exe: main.c generator.c
 	gcc -o sound.exe main.c generator.c -lwinmm
 
 clean:
